@@ -16,18 +16,17 @@ body {
     color: #e63946;
 }
 
-@media(max-width: 320px){
+@media(min-width: 320px) and (max-width: 480px){
     .container{
         display: grid;
         height: 90vh;
-        grid-template-columns: 320px;
     }
 
     .header {
         height: 50px;
         display: flex;
-        padding: 12px;
-        margin: 12px;
+        padding: 16px;
+        margin: 16px;
         flex-direction: row;
         justify-content:space-between;
         align-items: center;
@@ -58,7 +57,7 @@ body {
         position: absolute;
         background-color: #f1f1f1;
         min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
         z-index: 1;
     }
     
@@ -83,23 +82,38 @@ body {
         background-color: whitesmoke;
     }
 
+    .test {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .subscribe-form {
-        box-shadow: 4px 5px 0px 0px rgba(0,0,0,0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 4px 5px 0 0 rgba(0,0,0,0.2);
         border-radius: 1em;
         background-color: whitesmoke;
-        margin: 16px;
+        margin: 32px;
         padding: 12px;
-        text-align: justify;
+        text-align: left;
+        font-size: medium;
+    }
+
+    .submit-btn {
+        font-size: medium;
+        max-width: fit-content;
     }
 
     .form-input {
         width: 100%;
-        margin: 8px 0px;
+        /* margin: 8px 0; */
     }
 
     .footer-div{
         background-color: whitesmoke;
-        padding: 12px 0px;
+        padding: 12px 0;
         bottom: 0;
         position: absolute;
         width: 100%;
@@ -107,7 +121,7 @@ body {
     }
     
     .created {
-        margin: 0px 16px;
+        margin: 0 16px;
         font-size: small;
         text-align: justify;
     }
