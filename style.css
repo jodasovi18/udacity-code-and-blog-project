@@ -93,8 +93,7 @@ body {
     }
 
     .post {
-        /* border: 8px solid rgb(240, 240, 240); */
-        box-shadow: 4px 5px 0px 0px rgba(0,0,0,0.2);
+        border: 8px solid rgb(240, 240, 240);
         border-radius: 1em;
         background-color: whitesmoke;
         margin: 16px 0px;
@@ -110,7 +109,7 @@ body {
     }
 
     .post-name {
-        color: #1d3557;
+        color: #e63946;
     }
 
     .post-author {

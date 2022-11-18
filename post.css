@@ -33,6 +33,11 @@ body {
         align-items: center;
     }
 
+    .post-name {
+        color: #1d3557;
+        text-align: justify;
+    }
+
     .blog-name {
         font-size: 1.5em;
     }
@@ -91,12 +96,6 @@ body {
         /* border: 1px solid black; */
     }
 
-    .post-name {
-        color: #1d3557;
-        text-align: justify;
-        font-size: 1.5em;
-    }
-
     .post-author {
         margin: 8px 0px;
         font-size: small;
@@ -116,7 +115,7 @@ body {
     }
 
     .author {
-        box-shadow: 4px 5px 0px 0px rgba(0,0,0,0.2);
+        border: 8px solid rgb(240, 240, 240);
         border-radius: 1em;
         background-color: whitesmoke;
         margin: 16px;
@@ -148,33 +147,6 @@ body {
 
     .info-list {
         list-style: none;
-    }
-
-    .share {
-        color: #e63946;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        margin: 0px 4px;
-    }
-
-    .social-sharing {
-        box-shadow: 4px 5px 0px 0px rgba(0,0,0,0.2);
-        border-radius: 1em;
-        background-color: whitesmoke;
-        margin: 16px;
-        padding: 12px;
-        text-align: justify;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .icon {
-        max-width: 100%;
-        height: auto;
-        margin: 8px 0px;
-        padding: 0px 8px;
-        border-radius: 50%;
     }
 
     .footer-div{
