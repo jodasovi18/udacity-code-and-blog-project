@@ -202,11 +202,8 @@ body {
     }    
 
     .post-image {
-        width: auto;
-        height: auto;
-        max-width: 800px;
-        max-height: 800px;
-        margin: 10px 0;
+        width: 50%;
+        margin: 0 25%;
         border-radius: 1em;
     }
 
@@ -218,7 +215,7 @@ body {
         width: auto;
         max-width: 400px;
         height: auto;
-        margin: 10px 0;
+        margin: 0 25%;
         padding: 0 72px;
         border-radius: 1em;
     }
@@ -272,7 +269,7 @@ body {
 }
 
 .image-container {
-    justify-content: center;
+    margin: 0 auto;
 }
 
 .post-content {

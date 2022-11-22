@@ -235,5 +235,7 @@ body {
         margin: 0 16px;
         font-size: small;
         text-align: justify;
+        position: fixed;
+        bottom: 0;
     }
 }
