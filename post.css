@@ -107,7 +107,7 @@ body {
         padding: 28px 0 12px;
     }
 
-    .author-avatar > img {
+    .avatar-icon {
         max-width: 100%;
         height: auto;
         margin: 10px 0;
@@ -161,7 +161,6 @@ body {
     .footer-div{
         background-color: whitesmoke;
         padding: 12px 0;
-        /* border: 1px solid black; */
     }
     
     .created {
@@ -171,7 +170,7 @@ body {
     }
 }
 
-@media(min-width: 769px) /* and (max-width: 1200px)*/{
+@media(min-width: 769px){
     .dropbtn {
         display: none;
         background-color: white;
@@ -208,16 +207,20 @@ body {
     }
 
     .author-avatar {
-        padding: 28px 0 12px;
+        padding: 28px 0 0;
     }
     
     .avatar-icon {
-        width: auto;
+        width: 50%;
         max-width: 400px;
         height: auto;
-        margin: 0 25%;
-        padding: 0 72px;
+        margin: 40px 0;
+        padding: 0 144px 0 0;
         border-radius: 1em;
+    }
+
+    .info {
+        max-width: 50%;
     }
 }
 
@@ -234,21 +237,23 @@ body {
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
+    font-size: 1.2em;
 }
 
-.blog-name {
-    font-size: 1.5em;
+.main-page {
+    text-decoration: none;
 }
 
 .post-author-share {
     box-shadow: 4px 5px 0 0 rgba(0,0,0,0.2);
     border-radius: 1em;
     background-color: whitesmoke;
-    margin: 32px;
-    padding: 12px;
+    margin: 4% 15%;
+    padding: 30px;
     text-align: justify;
     grid-template-columns: 100%;
     grid-template-rows: 100%;
+    max-width: 70%;
 }
 
 #post {
@@ -311,27 +316,31 @@ body {
     grid-gap: 16px;
 }
 
+.social-media:hover {
+    opacity: 0.7;
+}
+
 .icon {
     max-width: 100%;
     max-height: 48px;
     border-radius: 50%;
 }
+
+.image-source {
+    margin: 10px 0 10px;
+}
+
 .icon-link  {
     text-align: left;
 }
 
 .footer-div{
     background-color: whitesmoke;
-    padding: 12px 0;
-    /* border: 1px solid black; */
+    padding: 15px 0px;
 }
 
 .created {
-    margin: 0 16px;
-    font-size: small;
+    margin: 0px 16px;
+    font-size: large;
     text-align: justify;
 }
-
-/* @media(min-width: 500px) and (max-width: 900px){
-
-} */
