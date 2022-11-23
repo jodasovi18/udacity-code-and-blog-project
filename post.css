@@ -119,6 +119,17 @@ body {
         color: #e63946;
     }
 
+    .post-author-share {
+        box-shadow: 4px 5px 0 0 rgba(0,0,0,0.2);
+        border-radius: 1em;
+        background-color: whitesmoke;
+        margin: 16px;
+        padding: 30px;
+        text-align: justify;
+        grid-template-columns: 100%;
+        grid-template-rows: 100%;
+    }
+
     .post-author {
         margin: 8px 0;
         font-size: medium;
@@ -198,7 +209,19 @@ body {
         text-decoration: none;
         display: flex;
         justify-items: right;
-    }    
+    }   
+    
+    .post-author-share {
+        box-shadow: 4px 5px 0 0 rgba(0,0,0,0.2);
+        border-radius: 1em;
+        background-color: whitesmoke;
+        margin: 4% 15%;
+        padding: 30px;
+        text-align: justify;
+        grid-template-columns: 100%;
+        grid-template-rows: 100%;
+        max-width: 70%;
+    }
 
     .post-image {
         width: 50%;
@@ -242,18 +265,6 @@ body {
 
 .main-page {
     text-decoration: none;
-}
-
-.post-author-share {
-    box-shadow: 4px 5px 0 0 rgba(0,0,0,0.2);
-    border-radius: 1em;
-    background-color: whitesmoke;
-    margin: 4% 15%;
-    padding: 30px;
-    text-align: justify;
-    grid-template-columns: 100%;
-    grid-template-rows: 100%;
-    max-width: 70%;
 }
 
 #post {
