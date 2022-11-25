@@ -1,6 +1,6 @@
-@import url('/udacity-code-and-blog-project/CSS/mobile.css');
-@import url('/udacity-code-and-blog-project/CSS/desktop.css');
-@import url('/udacity-code-and-blog-project/CSS/post-card.css');
+@import url('../CSS/mobile.css');
+@import url('../CSS/desktop.css');
+@import url('../CSS/post-card.css');
 
 * {
     margin: 0;
