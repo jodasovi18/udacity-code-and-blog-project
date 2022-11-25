@@ -1,0 +1,39 @@
+@media(min-width: 769px){
+    .dropbtn {
+        display: none;
+        background-color: white;
+        color: #e63946;
+        padding: 16px;
+        font-size: 16px;
+        border: 1px solid #e63946;
+        border-radius: 1em;
+        cursor: pointer;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: flex;
+        flex-direction: row;
+        min-width: 160px;
+        z-index: 1;
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        font-weight: 700;
+        color: #e63946;
+        padding: 0 0 0 24px;
+        text-decoration: none;
+        display: flex;
+        justify-items: right;
+    }
+
+    #posts {
+        padding: 16px;
+        margin: 16px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 16px;
+    }
+}

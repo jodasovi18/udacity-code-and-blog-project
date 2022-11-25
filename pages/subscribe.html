@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/subscribe.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Subscribe</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="/index.html" class="main-page">
+                <h1 class="blog-name">Code&Blog</h1>
+            </a>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="/index.html">Main Page</a>
+                    <a href="post1.html">Last Post</a>
+                    <a href="subscribe.html">Subscribe</a>
+                </div>
+              </div>
+        </header>
+        <div class="subscribe-container">
+            <form class="subscribe-form">
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="fname" class="form-input" required><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lname" class="form-input" required><br>
+                <label for="age-range">Age Range</label><br>
+                <select name="age-range" id="age-range" class="form-input" required>
+                    <option value=""></option>
+                    <option value="less-18">-18 years</option>
+                    <option value="18-25">18-30 years</option>
+                    <option value="30-40">30-40 years</option>
+                    <option value="40-or-more">40+ years</option>
+                </select><br>
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email" class="form-input" required><br>
+                <label for="country">Country</label><br>
+                <input type="text" id="country" name="country" class="form-input" required><br>
+                <button class="submit-btn">Submit</button>
+            </form>
+        </div>
+        <footer class="footer">
+            <div class="footer-div">
+                <h3 class="created">Created by José Daniel Solís V.</h3>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

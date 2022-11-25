@@ -1,0 +1,40 @@
+.post {
+    box-shadow: 4px 5px 0 0 rgba(0,0,0,0.2);
+    border-radius: 1em;
+    background-color: whitesmoke;
+    margin: 16px 0;
+    padding: 12px;
+    text-align: justify;
+}
+
+.post-image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0 0 0;
+    border-radius: 1em;
+}
+
+.caption {
+    margin: 0 0 10px;
+}
+
+.post-name {
+    color: #1d3557;
+}
+
+.post-author {
+    margin: 8px 0;
+    font-size: small;
+    color: grey;
+    text-decoration-line: underline;
+}
+
+.post-link {
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-link:hover {
+    opacity: 0.7;
+}
